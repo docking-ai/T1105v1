@@ -1,0 +1,25 @@
+gnina v1.0.1 HEAD:aa41230   Built Mar 23 2021.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+Commandline: ./gnina -r rec.pdb -l lig.pdb --autobox_ligand lig.pdb -o docked.sdf --seed 0 --flexdist_ligand lig.pdb --flexdist 3.5
+Flexible residues: A:75 A:93 A:229 A:231 A:232 A:233 A:298 A:299 A:302 A:324 A:326
+Using random seed: 0
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |  affinity  |    CNN     |   CNN
+     | (kcal/mol) | pose score | affinity
+-----+------------+------------+----------
+    1      -12.18       0.4988      6.535
+    2      -10.98       0.3884      6.353
+    3       -9.36       0.3786      5.914
+    4       -9.95       0.3785      6.387
+    5       -9.13       0.3763      5.798
+    6      -11.51       0.3693      6.333
+    7      -10.91       0.3690      6.250
+    8      -11.11       0.3511      6.507
+    9       -8.13       0.3478      5.525
+
